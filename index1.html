@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Sohaib - Professional Web Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="#" class="logo"><img src="./image/MS1.png" alt=""></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hello, I am</p>
+                <h1>Muhammad Sohaib Sadiq Rao</h1>
+                <h2 class="tagline">A Creative Front-End Developer focused on delivering impactful digital solutions.
+                </h2>
+                <p class="bio">With 5+ years of experience in HTML, CSS, and modern web standards, I build beautiful,
+                    responsive, and high-performance websites. Let's create something amazing!</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="button primary">View Projects</a>
+                    <a href="mailto:youremail@example.com" class="button secondary">Email Me</a>
+                </div>
+            </div>
+            <img src="./image/myimage.png" alt="Professional Portrait" class="profile-photo">
+        </div>
+    </section>
+
+    <section id="skills" class="skills section-padding">
+        <div class="container">
+            <h2 class="section-title">My Toolkit</h2>
+            <div class="skill-grid">
+                <div class="skill-card">
+                    <img src="./image/Front-End-Developer.png" alt="">
+                    <h3>Frontend Development</h3>
+                    <p>HTML5, CSS3 (Flexbox, Grid), Responsive Design, SASS/LESS.</p>
+                </div>
+                <div class="skill-card">
+                    <img src="./image/GD.jpg" class="cardimage" alt="">
+                    <h3>Design & Tools</h3>
+                    <p>Figma, Adobe Photoshop, User Interface (UI) Design.</p>
+                </div>
+                <div class="skill-card">
+                    <img src="./image/skills.jpg" alt="">
+                    <h3>Other Skills</h3>
+                    <p>Git/GitHub, Command Line, Basic JavaScript Concepts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Career Snapshot</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3 class="job-title"> Web Developer</h3>
+                    <p class="company-date">8ration Pvt. Ltd. | 2025 - Present</p>
+                    <p class="description">Assisted in the development and maintenance of over 15 client websites using
+                        pure HTML/CSS structure.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3 class="job-title">Graphics Design</h3>
+                    <p class="company-date">Tecxeo Pvt Ltd. | 2023 - 2025</p>
+                    <p class="description">Assisting in the creation and development of design concepts for various projects, including social media graphics, websites, brochures, and marketing materials.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <img src="./image/project.JPG" alt="Project 1 Thumbnail">
+                    <div class="project-info">
+                        <h3>E-commerce Redesign</h3>
+                        <p>A responsive e-commerce site focused on user experience and fast loading speeds.</p>
+                        <a href="#" class="project-link">View Demo &rarr;</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="./image/project1.JPG.png" alt="Project 2 Thumbnail">
+                    <div class="project-info">
+                        <h3>Corporate Landing Page</h3>
+                        <p>A professional landing page with parallax scrolling effects built using pure CSS.</p>
+                        <a href="#" class="project-link">View Demo &rarr;</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-padding bg-dark">
+        <div class="container contact-content">
+            <h2 class="section-title">Let's Connect</h2>
+            <p>I'm open to new project collaborations and full-time opportunities. Send me a message!</p>
+
+            <form action="[YOUR_FORM_ENDPOINT]" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="button primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://linkedin.com/" target="_blank">LinkedIn</a> |
+                <a href="https://github.com" target="_blank">GitHub</a>
+            </div>
+            <p>&copy; 2025 Muhammad Sohaib | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
